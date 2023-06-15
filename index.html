@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>7Days#JavaScript</title>
+    </head>
+
+    <body>
+        <section class="form-container">
+                <div class="container">
+                    <form id="formulario">
+                        <h1>7DaysCoding</h1>
+                        <img src="imagens/logo7days.png" alt="logo da 7dayscoding">
+                        
+                        <div class="input-single">
+                            <input class="input" type="text" id="name" name="nome" required>
+                            <label for="name">What is your name?</label>
+                        </div>
+
+                        <div class="input-single">
+                            <input class="input" type="text" id="age" name="nome" required>
+                            <label for="age">How old are you?</label>
+                        </div>
+
+                        <div class="input-single">
+                            <input class="input" type="text" id="language" name="nome" required>
+                            <label for="language">What programming language are you studying?</label>
+                        </div>
+                        
+                        <div class="buttom" onclick="resposta()">
+                            <input type="submit" value="TO SEND">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="respostas"></div>  
+                <script src="script.js"></script>
+        </section>
+    </body>
+</html>
+                        
+
+
+         
